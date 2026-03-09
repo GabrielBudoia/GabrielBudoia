@@ -31,8 +31,8 @@
 ### 🤝 Connect with Me
 
 <p align="center">
-<a href="https://www.linkedin.com/in/gabrielbudoia/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
-<a href="mailto:gabriel@example.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="linkedin.com/in/gabriel-budoia-31840032a"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="mailto:gabbudoia@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 <a href="https://github.com/GabrielBudoia"><img src="https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github&logoColor=white"/></a>
 </p>
 
