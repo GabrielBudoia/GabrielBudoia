@@ -35,3 +35,7 @@
 <a href="mailto:gabriel@example.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 <a href="https://github.com/GabrielBudoia"><img src="https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github&logoColor=white"/></a>
 </p>
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GabrielBudoia&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+</p>
