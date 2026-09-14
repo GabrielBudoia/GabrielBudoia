@@ -21,19 +21,19 @@ For the last two years I worked inside production environments — a global fint
 
 Now I'm going deep on **distributed backend systems**: gRPC services, NATS messaging, OpenTelemetry instrumentation and Kubernetes orchestration — while reading for a BSc in Computer Engineering at **UOC**.
 
-Most of what I build these days orbits one question: *what does it actually take to run a database as a managed service?* The repos below are my answer, in progress.
+Most of what I build these days orbits one question: *what does it actually take to run a database as a managed service?* Two of the three services below are up and running; the third is in progress.
 
 ---
 
-### 🚧 Currently building
+### Projects
 
 A miniature managed-database platform, split into three services:
 
-| Project | What it does | Stack |
-|---|---|---|
-| **pgfleet** | Control plane for managed PostgreSQL — a gRPC API that provisions, inspects and decommissions database instances by driving Kubernetes StatefulSets through `client-go` | `Go` `gRPC` `Kubernetes` `PostgreSQL` |
-| **dbwatch** | Distributed health and telemetry pipeline — collectors publish database health events to NATS JetStream, consumers evaluate thresholds and raise alerts, traced end-to-end with OpenTelemetry | `Go` `NATS` `OpenTelemetry` `Prometheus` |
-| **backup-orchestrator** | Fault-tolerant backup scheduler for database fleets — leader election for job coordination, MongoDB-backed job store, S3-compatible storage, deployed via Helm | `Go` `MongoDB` `Kubernetes` `Helm` |
+| Project | What it does | Stack | Status |
+|---|---|---|---|
+| **[pgfleet](https://github.com/GabrielBudoia/pgfleet)** | Control plane for managed PostgreSQL — a gRPC API that provisions, inspects and decommissions database instances by driving Kubernetes StatefulSets through `client-go` | `Go` `gRPC` `Kubernetes` `PostgreSQL` | ✅ shipped |
+| **[dbwatch](https://github.com/GabrielBudoia/dbwatch)** | Distributed health and telemetry pipeline — collectors publish database health events to NATS JetStream, consumers evaluate thresholds and raise alerts, traced end-to-end with OpenTelemetry | `Go` `NATS` `OpenTelemetry` `Prometheus` | ✅ shipped |
+| **backup-orchestrator** | Fault-tolerant backup scheduler for database fleets — leader election for job coordination, MongoDB-backed job store, S3-compatible storage, deployed via Helm | `Go` `MongoDB` `Kubernetes` `Helm` | 🚧 building |
 
 ---
 
